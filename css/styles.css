@@ -10,6 +10,9 @@
 .score {
 	font-size: 24px;
 }
+.timer {
+	padding-top: 20px;
+}
 .icon {
 	height: 74px !important;
 	margin-top: 20px;
@@ -106,7 +109,6 @@
 }
 @media screen and (min-width: 992px) {
   .game {
-    background-color: blue;
     margin: 0px;
   }
   .icon {
@@ -114,7 +116,7 @@
   	padding: 10px;
   	margin-top: 50px;
   }
-  .refresh {
-
+  .timer {
+  	margin-top: 50px;
   }
 }

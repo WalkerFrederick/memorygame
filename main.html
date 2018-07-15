@@ -17,17 +17,17 @@
 			<div class="row">
 				<div class='four columns'><img class="refresh border icon" src="images/refresh.png"></div>
 				<div class='four columns'><h1 id="game-title">MEMORY GAME</h1></div>
-				<div class='four columns'></div>
+				<div style="padding-top: 50px;"class="four columns"><span id="timer" class="icon score">00:00</span></div>
 
 			</div>
 			<div class="row">
 				<div class="matches four columns"><span>matches: </span><span id='matches'>0</span></div>
-				<div class="four columns"><span id="timer" class="score">00:00</span></div>
-				<div class="four columns"><span>rating:</span><span id="level1"class="score">&#9733;</span><span id="level2"class="score">&#9733;</span><span id="level3"class="score">&#9733;</span>
+				<div class="matches four columns"><span>moves: </span><span class="moves">0</span></div>
+				<div class="four columns"><span>rating:</span><span class="level1 score">&#9733;</span><span class="level2 score">&#9733;</span><span class="level3 score">&#9733;</span>
 				</div>
 			</div>
 			<div class="row">
-				<div id="gamefield" class="border game twelve colunms">
+				<div id="gamefield" class="border game twelve colunms">s
 					
 				</div>
 			</div>
@@ -36,7 +36,8 @@
 		  <!-- Modal content -->
 		  <div class="modal-content">
 		  	<h1>Congratulations!!!</h1>
-		    <p><span>It took you </span><span id="moves">0</span><span> moves, and </span><span id="time">00:00</span></p>
+				<span>rating:</span><span class="level1 score">&#9733;</span><span class="level2 score">&#9733;</span><span class="level3 score">&#9733;</span>		    
+				<p><span>It took you </span><span class="moves">0</span><span> moves, and </span><span id="time">00:00</span></p>
 		    <button id="restart" class="refresh mg">restart</button>
 		  </div>
 		</div>
