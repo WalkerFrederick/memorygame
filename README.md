@@ -1,5 +1,5 @@
 # Udacity Memory Game Project
-built for the the front-end nano degree program.
+built for the the front-end nanodegree program.
 
 # Libraries
 Used Skeleton/normalize.css for my css framework,
